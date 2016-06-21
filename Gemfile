@@ -1,11 +1,13 @@
 source 'http://rubygems.org'
 
-ruby '2.2.0'
+ruby '2.2.3'
 
 gem 'slack-ruby-bot', github: 'dblock/slack-ruby-bot' # '~> 0.5.0'
 gem 'puma'
 gem 'sinatra'
 gem 'dentaku'
+gem 'mongoid'
+gem  'bson_ext'
 
 group :development, :test do
   gem 'rake', '~> 10.4'
