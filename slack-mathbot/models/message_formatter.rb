@@ -1,0 +1,2 @@
+class MessageFormatter
+end
